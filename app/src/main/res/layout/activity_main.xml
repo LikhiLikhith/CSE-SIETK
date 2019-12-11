@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bnwf"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/cse"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/iconcse" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/welcome" />
+
+    <ImageView
+        android:id="@+id/rolentroll"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/rolentroll" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#C4070707"
+        android:text="@string/loginbut"
+        android:textSize="17sp"
+        android:textColor="#FCF8F8"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

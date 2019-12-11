@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CSE SIETK</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="iv_year">IV Year</string>
+    <string name="iii_year">III Year</string>
+    <string name="ii_year">II Year</string>
+    <string name="i_year">I Year</string>
+    <string name="iii_i">III - I</string>
+    <string name="iii_ii">III - II</string>
+    <string name="unix_shell"><![CDATA[Unix & Shell]]></string>
+    <string name="flat">FLAT</string>
+    <string name="sea">SEA</string>
+    <string name="web_tech">WEB TECH</string>
+    <string name="big_data">BIG DATA</string>
+    <string name="daa">DAA</string>
+    <string name="others">OTHERS</string>
+    <string name="unix_and_shell">Unix and shell</string>
+    <string name="unixr">UNIX</string>
+    <string name="flatr">FLAT</string>
+    <string name="sear">SEA</string>
+    <string name="wtr">WT</string>
+    <string name="bdr">BD</string>
+    <string name="daar">DAA</string>
+    <string name="othersr">OTHERS</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login">Login</string>
+    <string name="loginbut">Login</string>
+    <string name="quote">\'\' 1% Luck , 1% Talent , 98% Never Give Up are 100% Success Formula .......\'\' #likvkp </string>
+    <string name="my_pdf">My PDF</string>
+
+</resources>

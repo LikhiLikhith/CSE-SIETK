@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backsietk"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/brainvpro"
+    android:visibility="visible"
+    tools:context=".year">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="200dp"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+
+            android:id="@+id/oneboy"
+            android:layout_width="130dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/oneboy" />
+
+        <ImageView
+
+            android:id="@+id/twoboy"
+            android:layout_width="130dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="38dp"
+            android:src="@drawable/twoboy" />
+
+        <ImageView
+
+            android:id="@+id/threeboy"
+            android:layout_width="130dp"
+            android:layout_height="117dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="38dp"
+            android:src="@drawable/threeboy" />
+
+        <ImageView
+
+            android:id="@+id/fourboy"
+            android:layout_width="125dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/fourboy" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="180dp"
+        android:gravity="center_vertical"
+        android:layout_marginStart="180dp">
+
+
+        <Button
+
+        android:id="@+id/oneyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:background="#C4070707"
+        android:text="@string/i_year"
+            android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/twoyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:text="@string/ii_year"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:textStyle="bold" />
+
+
+
+    <Button
+
+        android:id="@+id/threeyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:background="#C4070707"
+        android:text="@string/iii_year"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+
+        android:id="@+id/fouryear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:background="#C4070707"
+        android:text="@string/iv_year"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

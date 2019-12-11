@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/sietkbull"
+    tools:context=".threetwoo">
+
+    <Button
+        android:id="@+id/unix"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/unix_shell"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+       />
+
+    <Button
+        android:id="@+id/flat"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/flat"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+        />
+
+    <Button
+        android:id="@+id/sea"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sea"
+        android:layout_marginTop="20dp"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+        />
+
+    <Button
+        android:id="@+id/wt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/web_tech"
+        android:layout_marginTop="20dp"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+       />
+
+    <Button
+        android:id="@+id/bd"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/big_data"
+        android:textColor="#FCF8F8"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+         />
+
+    <Button
+        android:id="@+id/daa"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/daa"
+        android:layout_marginTop="20dp"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+         />
+
+    <Button
+        android:id="@+id/other"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/others"
+        android:layout_marginTop="20dp"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#C4070707"
+         />
+
+</LinearLayout>
