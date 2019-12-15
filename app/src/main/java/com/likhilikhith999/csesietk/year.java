@@ -52,23 +52,23 @@ public class year extends AppCompatActivity {
     }
 
     private void openFouryear() {
-        Toast.makeText(this, " 4th Year is Under Construction ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, " 4th Year CSE ", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this,undercon.class);
+        Intent intent = new Intent(this,four.class);
         startActivity(intent);
     }
 
     private void openTwoyear() {
-        Toast.makeText(this, " 2nd Year is Under Construction ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, " 2nd Year CSE ", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this,undercon.class);
+        Intent intent = new Intent(this,two.class);
         startActivity(intent);
     }
 
     private void openOneyear() {
-        Toast.makeText(this, " 1st Year is Under Construction ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, " 1st Year CSE ", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this,undercon.class);
+        Intent intent = new Intent(this,one.class);
         startActivity(intent);
     }
 

@@ -7,6 +7,7 @@ public class Upload {
 
     // Default constructor required for calls to
     // DataSnapshot.getValue(User.class)
+
     public Upload() {
     }
 

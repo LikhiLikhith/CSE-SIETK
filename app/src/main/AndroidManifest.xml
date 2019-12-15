@@ -10,6 +10,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ViewFourtwo"></activity>
+        <activity android:name=".udfourtwo" />
+        <activity android:name=".ViewFourone" />
+        <activity android:name=".udfourone" />
+        <activity android:name=".four" />
+        <activity android:name=".ViewThreetwo" />
+        <activity android:name=".udthreetwo" />
+        <activity android:name=".ViewThreeone" />
+        <activity android:name=".udthreeone" />
+        <activity android:name=".ViewTwotwo" />
+        <activity android:name=".udtwotwo" />
+        <activity android:name=".two" />
+        <activity android:name=".ViewTwoone" />
+        <activity android:name=".udtwoone" />
+        <activity android:name=".ViewOnetwo" />
+        <activity android:name=".udonetwo" />
+        <activity android:name=".one" />
+        <activity android:name=".ViewOneone" />
+        <activity android:name=".udoneone" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,19 +38,17 @@
         </activity>
         <activity android:name=".Login" />
         <activity android:name=".Upanddown" />
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".threetwoo" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".three" />
         <activity android:name=".undercon" />
         <activity android:name=".year" />
-        <activity android:name=".ViewUploadsActivity"></activity>
+        <activity android:name=".ViewUploadsActivity" />
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT" />
 

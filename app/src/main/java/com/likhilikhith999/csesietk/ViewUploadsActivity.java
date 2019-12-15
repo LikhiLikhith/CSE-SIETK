@@ -76,18 +76,7 @@ public class ViewUploadsActivity extends AppCompatActivity {
                 Log.i("url-->",""+uploadList.get(i).getName());
 
 
-                /*Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-                intent.setType("application/pdf");
-                //intent.setData(Uri.parse(upload.getUrl()));
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
-                startActivity(intent);
 
-                Uri path = Uri.parse("/storage/emulated/0/Download/"+uploadList.get(i).getName()+".pdf");
-                    Intent pdfOpenintent = new Intent(Intent.ACTION_VIEW,path);
-                    pdfOpenintent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    pdfOpenintent.setDataAndType(path, "application/pdf");
-                    try { startActivity(pdfOpenintent); }
-                    catch (ActivityNotFoundException e) { }*/
 
                 File applictionFile =  new File(Environment.getExternalStoragePublicDirectory(
                         Environment.DIRECTORY_DOWNLOADS)+ "/storage/emulated/0/Download/"+uploadList.get(i).getName()+".pdf");

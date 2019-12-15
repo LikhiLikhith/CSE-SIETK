@@ -42,7 +42,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:hint="@string/enter_username"
-            android:textColorHint="#B2F8F7F8"
+
             android:textColor="#FFEB3B"
             android:textStyle="bold" /> </LinearLayout>
 
