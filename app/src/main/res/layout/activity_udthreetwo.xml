@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D2950"
+    android:orientation="vertical"
+    tools:context=".udthreetwo">
+
+    <!--3rd year 2nd sem-->
+
+    <ImageView
+        android:id="@+id/imgdat"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/bigdatafff" />
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#CEF8F7F8"
+        android:textColor="#03A9F4"
+        android:hint="Enter a name for your PDF" />
+
+    <Button
+        android:id="@+id/buttonUploadFile"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="#FCF8F8"
+        android:textSize="15sp"
+        android:background="#C4070707"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Upload PDF" />
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No File selected"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFE222"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textAlignment="center" />
+
+
+    <TextView
+        android:id="@+id/textViewUploads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="View 3-2 Year Files"
+        android:textSize="25dp"
+        android:textColor="#FF5722" />
+
+
+</LinearLayout>

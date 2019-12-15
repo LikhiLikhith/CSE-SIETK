@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/spera"
+    tools:context=".four">
+
+
+
+    <Button
+        android:id="@+id/fourone"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:text="iv-i"
+        android:textColor="#FCF8F8"
+        android:textSize="30sp"
+        android:background="#C4070707"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/fourtwo"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="30sp"
+        android:background="#C4070707"
+        android:text="iv-ii" />
+
+
+
+</LinearLayout>
