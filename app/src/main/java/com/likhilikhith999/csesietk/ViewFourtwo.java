@@ -50,16 +50,7 @@ public class ViewFourtwo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_fourtwo);
 
-        button = (Button)findViewById(R.id.mypdf);
-        button.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-
-                MyPDF();
-
-            }
-        });
 
         uploadList = new ArrayList<>();
         listView = (ListView) findViewById(R.id.listView);
@@ -144,12 +135,7 @@ public class ViewFourtwo extends AppCompatActivity {
         return downloadmanager.enqueue(request);
     }
 
-    private void MyPDF(){
 
-        Toast.makeText(this, " Check in your Download's folder...", Toast.LENGTH_SHORT).show();
-
-
-    }
 
 
 

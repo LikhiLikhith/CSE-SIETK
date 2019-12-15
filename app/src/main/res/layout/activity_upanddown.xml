@@ -65,9 +65,11 @@
         android:layout_marginTop="60dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="View 3-1 Year Files"
+        android:text="View Notice Board"
         android:textSize="25dp"
-        android:textColor="#FF5722" />
+        android:background="#000"
+        android:textColor="#FAFAFA"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>

@@ -38,7 +38,7 @@ public class one extends AppCompatActivity {
     private void openonetwo() {
         Toast.makeText(this, " 1st Year 2nd Sem ", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this,udonetwo.class);
+        Intent intent = new Intent(this,ViewOnetwo.class);
         startActivity(intent);
     }
 
@@ -47,7 +47,7 @@ public class one extends AppCompatActivity {
         Toast.makeText(this, " 1st Year 1st Sem ", Toast.LENGTH_SHORT).show();
 
 
-        Intent intent = new Intent(this,udoneone.class);
+        Intent intent = new Intent(this,ViewOneone.class);
         startActivity(intent);
     }
 }

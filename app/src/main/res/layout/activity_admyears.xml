@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/hmbg"
+    tools:context=".admyears">
+
+
+
+    <Button
+        android:id="@+id/oneone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year 1 _ Sem 1"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/onetwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:text="Year 1 _ Sem 2" />
+
+    <Button
+        android:id="@+id/twoone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Year 2 _ Sem 1"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/twotwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:text="Year 2 _ Sem 2" />
+    <Button
+        android:id="@+id/threeone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Year 3 _ Sem 1"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/threetwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:text="Year 3 _ Sem 2" />
+    <Button
+        android:id="@+id/fourone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Year 4 _ Sem 1"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/fourtwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:text="Year 4 _ Sem 2" />
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#FCF8F8"
+        android:textSize="20sp"
+        android:background="#C4070707"
+        android:text="Notice _ Board" />
+
+
+
+</LinearLayout>

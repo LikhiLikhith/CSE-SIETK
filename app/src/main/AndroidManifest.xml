@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ViewFourtwo"></activity>
+        <activity android:name=".admyears"></activity>
+        <activity android:name=".ViewFourtwo" />
         <activity android:name=".udfourtwo" />
         <activity android:name=".ViewFourone" />
         <activity android:name=".udfourone" />
@@ -44,11 +45,11 @@
         <activity android:name=".year" />
         <activity android:name=".ViewUploadsActivity" />
     </application>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT" />
 

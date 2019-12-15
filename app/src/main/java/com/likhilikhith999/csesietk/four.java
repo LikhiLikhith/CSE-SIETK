@@ -38,7 +38,7 @@ public class four extends AppCompatActivity {
     private void openfourtwo() {
         Toast.makeText(this, " 4th Year 2nd Sem ", Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this,udfourtwo.class);
+        Intent intent = new Intent(this,ViewFourtwo.class);
         startActivity(intent);
     }
 
@@ -47,7 +47,7 @@ public class four extends AppCompatActivity {
         Toast.makeText(this, " 4th Year 1st Sem ", Toast.LENGTH_SHORT).show();
 
 
-        Intent intent = new Intent(this,udfourone.class);
+        Intent intent = new Intent(this,ViewFourone.class);
         startActivity(intent);
     }
 }

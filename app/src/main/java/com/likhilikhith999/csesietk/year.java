@@ -49,6 +49,14 @@ public class year extends AppCompatActivity {
             }
         });
 
+        button = (Button) findViewById(R.id.info);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openNoticeBoard();
+            }
+        });
+
     }
 
     private void openFouryear() {
@@ -77,6 +85,15 @@ public class year extends AppCompatActivity {
         Toast.makeText(this, " 3rd Year CSE ", Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(this,three.class);
+        startActivity(intent);
+
+    }
+
+    private void openNoticeBoard() {
+
+        Toast.makeText(this, " CSE Dep Notice Board ", Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(this,ViewUploadsActivity.class);
         startActivity(intent);
 
     }

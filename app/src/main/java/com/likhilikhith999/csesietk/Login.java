@@ -29,9 +29,9 @@ public class Login extends AppCompatActivity {
 
         if (user.getText().toString().equals("ADMIN") && pass.getText().toString().equals("BHIDEN@008"))
         {
-            Toast.makeText(getApplicationContext(), "Hello Boss.....Welcome Back....!!!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Hello Boss.....Welcome Back....!!!!", Toast.LENGTH_LONG).show();
 
-            Intent intent= new Intent(this,Upanddown.class);
+            Intent intent= new Intent(this,admyears.class);
             startActivity(intent);
         }
         else

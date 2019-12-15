@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/chain"
+    android:background="@drawable/mid"
 
     android:orientation="vertical"
 
@@ -13,12 +13,12 @@
     tools:context=".ViewThreetwo">
 
     <Button
-        android:id="@+id/mypdf"
-        android:layout_width="150dp"
+        android:id="@+id/trt"
+        android:layout_width="match_parent"
         android:layout_marginTop="25dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:text="@string/my_pdf"
+        android:text="3 year  - Sem 2"
         android:textColor="#FCF8F8"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -30,9 +30,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:background="#E402BAD1"
+        android:background="#B9F7FAFA"
         android:divider="#022657"
-        android:listSelector="#E987F707"
+        android:listSelector="#C687F707"
         android:dividerHeight="2dp">
 
     </ListView>
